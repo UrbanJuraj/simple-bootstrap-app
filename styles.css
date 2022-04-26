@@ -1,0 +1,65 @@
+/* styles for the entire header layout------------- */
+.header {
+  background-image: url("./assets/background.png");
+  min-height: 100vh;
+}
+/* ------------------------------------------------ */
+
+/* custom colors for buttons----------------------- */
+.btn-outline-custom-primary {
+  background-color: #fff;
+  color: #4f57a6;
+  border: 1px solid #4f57a6;
+}
+
+.btn-outline-custom-primary:hover,
+.btn-outline-custom-primary:active {
+  background-color: #4f57a6;
+  color: #fff;
+}
+
+.btn-outline-custom-secondary {
+  background-color: #fff;
+  color: #8d54a2;
+  border: 1px solid #8d54a2;
+}
+
+.btn-outline-custom-secondary:hover,
+.btn-outline-custom-secondary:active {
+  background-color: #8d54a2;
+  color: #fff;
+}
+/* ---------------------------------------------- */
+
+.btn-radius {
+  border-radius: 15px;
+}
+
+/* aditional styles for offcanvas--------------- */
+.offcanvas {
+  background: linear-gradient(to bottom, #4f57a6, #8d54a2);
+  opacity: 0.95;
+  padding: 2rem;
+}
+/* --------------------------------------------- */
+
+.underline {
+  padding-bottom: 1rem;
+  border-bottom: 1px solid #999;
+}
+
+.flag {
+  width: 10%;
+}
+
+.small-text {
+  font-size: 0.8rem;
+}
+
+/* reduce offcanvas width for small screens------- */
+@media (max-width: 992px) {
+  .offcanvas {
+    width: 300px !important;
+  }
+}
+/* ----------------------------------------------- */
